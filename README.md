@@ -11,31 +11,27 @@ The verified contract can be found [here](https://mumbai.polygonscan.com/address
 - Create an account on [MATIC RPC](https://rpc.maticvigil.com/), create a new proect and copy your app id
 - Create an account on [polygonscan](https://polygonscan.com/register) and create a new apikey
 - Create a `secret.json` file with the following content:
-'''
 
  {
-
- 	"APP_ID": "Your appId",
+	"APP_ID": "Your appId",
 	"PRIVATE_KEY1": "Your mumbai testnet account private key",
 	"PRIVATE_KEY2": "Another mumbai testnet account private key",
 	"POLYGONSCAN_API_KEY": "Your api key"
-
 }
 
-'''
 
 - Run the following commands
 > npm install
-
-npx hardhat compile
-
-npx hardhat run scripts/deploy.js
+> npx hardhat compile
+> npx hardhat run scripts/deploy.js
 
 - Scan the address on mumbai testnet
 - To mint your own NFT
+
 > npx hardhat run scripts/mint.js
 
 - To verify your contract
+
 > npx hardhat verify $DEPLOYED_ADDRESS
 
 (c) Horlarmmy
