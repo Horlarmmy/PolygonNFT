@@ -3,7 +3,7 @@
 Deploy, mint and verify an NFT contract on polygon blockchain
 ## Minted NFT
 
-The verified contract can be found [here](https://mumbai.polygonscan.com/address/0x94C6cb95d0e5753337613194b7813CE728004716)
+The verified contract can be found [here](https://mumbai.polygonscan.com/address/0x2b7f9f8e33e6c3ad8f4a4941880a768d5c4f2834)
 
 ## How to run
 
@@ -28,5 +28,8 @@ npx hardhat run scripts/deploy.js
 - To mint your own NFT
 > npx hardhat run scripts/mint.js
 
+- To verify your contract
+> npx hardhat verify $DEPLOYED_ADDRESS
 
+(c) Horlarmmy
 
