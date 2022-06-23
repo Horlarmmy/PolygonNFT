@@ -30,6 +30,7 @@ npx hardhat run scripts/deploy.js
 
 - Scan the address on mumbai testnet
 - To mint your own NFT
+Change the CONTRACT ADDRESS and WALLET ADDRESS to your preferred
 
 > npx hardhat run scripts/mint.js
 
@@ -37,5 +38,5 @@ npx hardhat run scripts/deploy.js
 
 > npx hardhat verify $DEPLOYED_ADDRESS
 
-(c) Horlarmmy
+**(c) Horlarmmy**
 
