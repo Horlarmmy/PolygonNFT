@@ -22,10 +22,11 @@ The verified contract can be found [here](https://mumbai.polygonscan.com/address
 
 
 - Run the following commands
-> npm install
+```
+npm install
 npx hardhat compile
 npx hardhat run scripts/deploy.js
-
+```
 
 - Scan the address on mumbai testnet
 - To mint your own NFT
